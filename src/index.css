@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.radialGradiant {
+  background: rgb(253,200,48);
+background: linear-gradient(90deg, rgba(253,200,48,1) 0%, rgba(243,115,53,1) 100%);
+}
+
+.budsGradiant {
+  background: #FFDDE1;
+background: linear-gradient(90deg, #FFDDE1 100%, #EE9CA7 0%);
 }
